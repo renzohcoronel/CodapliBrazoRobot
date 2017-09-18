@@ -1,4 +1,4 @@
-![](/src/org/codapli/utn/customLogo.jpg)
+![](/src/resources/customLogo.jpg)
 
 
 Brazo robotico impreso en 3D controlado con Arduino + Aplicacion Java (Swing).
