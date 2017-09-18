@@ -9,10 +9,11 @@ import javax.swing.JPanel;
 
 public class ImagePanel extends JPanel {
 
+	private static final long serialVersionUID = 1L;
 	private Image img;
 
 	public ImagePanel(String img) {
-		this(new ImageIcon(img).getImage());
+		this(new ImageIcon(MainBrazoRobot.class.getResource(img)).getImage());
 	}
 
 	public ImagePanel(Image img) {

@@ -81,7 +81,7 @@ public class MainBrazoRobot {
 		gbl_panel.rowWeights = new double[] { 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, Double.MIN_VALUE };
 		panel.setLayout(gbl_panel);
 
-		ImagePanel jpanelImage = new ImagePanel("src/org/codapli/utn/customLogo.jpg");
+		ImagePanel jpanelImage = new ImagePanel("/resources/customLogo.jpg");
 		GridBagConstraints gbc_jpanelImage = new GridBagConstraints();
 		gbc_jpanelImage.gridwidth = 2;
 		gbc_jpanelImage.insets = new Insets(0, 0, 5, 5);
